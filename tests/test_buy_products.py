@@ -25,6 +25,7 @@ def test_buy_products(set_up):
 
     pap = Personal_Account_Page(driver)
     pap.authorization()
+    pap.back_on_main_page()
 
     mp.select_monitors()
 
@@ -33,6 +34,7 @@ def test_buy_products(set_up):
 
     fgmp = Filter_Game_Monitors_Page(driver)
     fgmp.select_hp_omen_monitor()
+    fgmp.back_on_main_page()
 
     mp.select_pc()
 
@@ -41,6 +43,7 @@ def test_buy_products(set_up):
 
     fgpp = Filter_Game_Pc_Page(driver)
     fgpp.select_hp_omen_pc()
+    fgpp.select_cart()
 
     cp = Cart_Page(driver)
     cp.check_basket()

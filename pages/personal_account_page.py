@@ -52,4 +52,6 @@ class Personal_Account_Page(Base):
         self.input_login('ice cream')
         self.input_password('iloveicecream')
         self.click_button_enter()
+    def back_on_main_page(self):
         self.click_button_hp()
+

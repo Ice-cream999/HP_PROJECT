@@ -62,4 +62,6 @@ class Filter_Game_Monitors_Page(Base):
         self.click_button_show()
         self.click_buy_hp_omen_25()
         self.close_alert()
+
+    def back_on_main_page(self):
         self.click_button_hp()

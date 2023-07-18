@@ -63,5 +63,6 @@ class Filter_Game_Pc_Page(Base):
         self.click_button_show()
         self.click_buy_omen_gt13_1154_tower()
         self.close_alert()
+    def select_cart(self):
         self.click_cart()
 
