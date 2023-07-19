@@ -13,7 +13,7 @@ class Filter_Game_Pc_Page(Base):
 # Locators
     filter_hp_omen = "//input[@id='arrFilter_91_2359487926']"
     button_show = "//input[@class='btn btn-themes']"
-    buy_omen_gt13_1154_tower = "//div[@class='product__list']/div[3]/div[4]/a"
+    buy_omen_gt13_1154_tower = "//div[@class='product__list']/div[4]/div[4]/a"
     close_window = "//button[contains(@class,'fancybox-close-small')]//*[name()='svg']"
     cart = "//a[contains(@class,'jsBasketCount')]//*[name()='svg']"
 
